@@ -1,0 +1,169 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+body { padding-top: 90px; }
+
+ul{
+ list-style: none;
+}
+
+.centerdiv{
+  /* float: left; */
+  margin-left: 100px;
+  border: solid 1px none;
+  width: 73%;
+  /* align-items: center; */
+}
+
+.navbar-center{
+  float: left;
+}
+
+.lastdiv{
+  margin-right: 0px;
+  border: solid 1px none;
+  width: 29%;
+}
+
+.lastdiv-navadmin{
+  border: solid 1px none;
+  width: 120%;
+  margin-right: 0px;
+}
+
+.logout-fname{
+  display: flex;
+  justify-content:flex-end;
+}
+
+
+
+/* .rowC{display:flex; flex-direction:row;} */
+
+.blog_card{
+  margin-top: 25px;
+  margin-left: 240px;
+  /* height: auto; */
+  width: 60%;
+  background-color: white;
+  /* display: inline-block; */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  
+}
+
+.card_img{
+  width: 100%;
+  height: 60%;
+  border: solid 1px white;
+  /* overflow-y: hidden; */
+}
+
+
+.like-comment{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+.gallery{
+  display: flex;
+  flex-wrap:  wrap;
+  justify-content: space-around;
+}
+
+.item{width: 30%;
+  margin-top: 10px;
+}
+
+
+
+.sidebar{
+  background-color: #3d3d3d;
+  color: white;
+  height: 330px;
+  width: 200px;
+  border:solid 1px black;
+  float: left;
+  padding-left: 10px;
+  
+}
+.box{margin-top: 30px;
+}
+
+.box ul{display: none;}
+
+.box ul li a{text-decoration: none;}
+
+
+sidebar-a{color: white;
+text-decoration: none;}
+
+.editCategoryButton{
+  height: 15%;
+  width: 39%;
+  background-color: #28a745 !important;
+  color: black;
+  border-radius: 5px;
+  border: solid 1px #3B71CA;
+}
+
+.editCategoryButton:hover{
+background-color: #039225 !important;
+}
+
+.deleteCategoryButton:hover{
+background-color: rgb(248, 2, 2) !important;
+}
+
+.deleteCategoryButton{
+  height: 15%;
+  width: 39%;
+  background-color: rgb(197, 42, 42) !important;
+  color: black;
+  border-radius: 5px;
+  border: solid 1px #3B71CA;
+}
+
+.out-box{
+  height: auto;
+  width: 75%;
+  margin-left: 250px;
+  background-color: red;
+}
+
+.box1{
+  height: 120px;
+  width: 290px;
+  border:solid 1px none;
+  float: left;
+  margin-left: 30px;
+  margin-top: 35px;
+  background-color: #6b6666;
+  font-size: 30px;
+  padding-top: 20px;
+  padding-left: 20px;
+  }
+
+  .inner-box{
+    height: 72px;
+    width: 116px;
+    border:solid 4px #9a9292;
+    border-width: 4px 2px 1px 4px;
+    float: left;
+    margin-left: 168px;
+    background-color: #aca9a9;
+    text-align: center;
+    padding-top: 20px;
+  }
